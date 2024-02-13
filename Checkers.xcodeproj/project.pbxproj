@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		153134BB2B77BC1400E1B988 /* PieceId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153134BA2B77BC1400E1B988 /* PieceId.swift */; };
+		153134BD2B77BC2E00E1B988 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153134BC2B77BC2E00E1B988 /* Piece.swift */; };
+		153134BF2B77BC3700E1B988 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153134BE2B77BC3700E1B988 /* Config.swift */; };
+		153134C12B77BC4300E1B988 /* BoardState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153134C02B77BC4300E1B988 /* BoardState.swift */; };
+		153134C32B77BCA600E1B988 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153134C22B77BCA600E1B988 /* GridView.swift */; };
+		153134C52B77BF1300E1B988 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153134C42B77BF1300E1B988 /* Action.swift */; };
+		153134C72B77EEDE00E1B988 /* CurrentTurnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153134C62B77EEDE00E1B988 /* CurrentTurnView.swift */; };
+		153134C92B77F4BB00E1B988 /* PieceStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153134C82B77F4BB00E1B988 /* PieceStorage.swift */; };
+		15DF3A2F2B79631E00477AF5 /* CoordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DF3A2E2B79631E00477AF5 /* CoordTests.swift */; };
+		15DF3A312B79640F00477AF5 /* PieceStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DF3A302B79640F00477AF5 /* PieceStorageTests.swift */; };
 		15EFFA8E2B779B3600DE6D8D /* CheckersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EFFA8D2B779B3600DE6D8D /* CheckersApp.swift */; };
 		15EFFA902B779B3600DE6D8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EFFA8F2B779B3600DE6D8D /* ContentView.swift */; };
 		15EFFA922B779B3700DE6D8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EFFA912B779B3700DE6D8D /* Assets.xcassets */; };
 		15EFFA962B779B3700DE6D8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EFFA952B779B3700DE6D8D /* Preview Assets.xcassets */; };
-		15EFFAA02B779B3800DE6D8D /* CheckersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EFFA9F2B779B3800DE6D8D /* CheckersTests.swift */; };
-		15EFFAAA2B779B3800DE6D8D /* CheckersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EFFAA92B779B3800DE6D8D /* CheckersUITests.swift */; };
-		15EFFAAC2B779B3800DE6D8D /* CheckersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EFFAAB2B779B3800DE6D8D /* CheckersUITestsLaunchTests.swift */; };
+		15EFFAB92B779CA300DE6D8D /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EFFAB82B779CA300DE6D8D /* UIColor+Extensions.swift */; };
+		15EFFABB2B77A59400DE6D8D /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EFFABA2B77A59400DE6D8D /* BoardView.swift */; };
+		15EFFABD2B77AD3600DE6D8D /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EFFABC2B77AD3600DE6D8D /* GameView.swift */; };
+		15EFFABF2B77BBC100DE6D8D /* Coord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EFFABE2B77BBC100DE6D8D /* Coord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		153134BA2B77BC1400E1B988 /* PieceId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceId.swift; sourceTree = "<group>"; };
+		153134BC2B77BC2E00E1B988 /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		153134BE2B77BC3700E1B988 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		153134C02B77BC4300E1B988 /* BoardState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardState.swift; sourceTree = "<group>"; };
+		153134C22B77BCA600E1B988 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		153134C42B77BF1300E1B988 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		153134C62B77EEDE00E1B988 /* CurrentTurnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTurnView.swift; sourceTree = "<group>"; };
+		153134C82B77F4BB00E1B988 /* PieceStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceStorage.swift; sourceTree = "<group>"; };
+		15BAA0682B79663C004AD9EC /* CheckersTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CheckersTests.xctestplan; sourceTree = "<group>"; };
+		15DF3A2E2B79631E00477AF5 /* CoordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordTests.swift; sourceTree = "<group>"; };
+		15DF3A302B79640F00477AF5 /* PieceStorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceStorageTests.swift; sourceTree = "<group>"; };
 		15EFFA8A2B779B3600DE6D8D /* Checkers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checkers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15EFFA8D2B779B3600DE6D8D /* CheckersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckersApp.swift; sourceTree = "<group>"; };
 		15EFFA8F2B779B3600DE6D8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,10 +63,11 @@
 		15EFFA932B779B3700DE6D8D /* Checkers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Checkers.entitlements; sourceTree = "<group>"; };
 		15EFFA952B779B3700DE6D8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		15EFFA9B2B779B3800DE6D8D /* CheckersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		15EFFA9F2B779B3800DE6D8D /* CheckersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckersTests.swift; sourceTree = "<group>"; };
 		15EFFAA52B779B3800DE6D8D /* CheckersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		15EFFAA92B779B3800DE6D8D /* CheckersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckersUITests.swift; sourceTree = "<group>"; };
-		15EFFAAB2B779B3800DE6D8D /* CheckersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15EFFAB82B779CA300DE6D8D /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		15EFFABA2B77A59400DE6D8D /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		15EFFABC2B77AD3600DE6D8D /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		15EFFABE2B77BBC100DE6D8D /* Coord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +98,10 @@
 		15EFFA812B779B3600DE6D8D = {
 			isa = PBXGroup;
 			children = (
+				15BAA0682B79663C004AD9EC /* CheckersTests.xctestplan */,
+				15EFFAB82B779CA300DE6D8D /* UIColor+Extensions.swift */,
 				15EFFA8C2B779B3600DE6D8D /* Checkers */,
 				15EFFA9E2B779B3800DE6D8D /* CheckersTests */,
-				15EFFAA82B779B3800DE6D8D /* CheckersUITests */,
 				15EFFA8B2B779B3600DE6D8D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,6 +121,17 @@
 			children = (
 				15EFFA8D2B779B3600DE6D8D /* CheckersApp.swift */,
 				15EFFA8F2B779B3600DE6D8D /* ContentView.swift */,
+				15EFFABE2B77BBC100DE6D8D /* Coord.swift */,
+				153134BA2B77BC1400E1B988 /* PieceId.swift */,
+				153134BC2B77BC2E00E1B988 /* Piece.swift */,
+				153134C42B77BF1300E1B988 /* Action.swift */,
+				153134BE2B77BC3700E1B988 /* Config.swift */,
+				15EFFABA2B77A59400DE6D8D /* BoardView.swift */,
+				153134C62B77EEDE00E1B988 /* CurrentTurnView.swift */,
+				153134C22B77BCA600E1B988 /* GridView.swift */,
+				153134C82B77F4BB00E1B988 /* PieceStorage.swift */,
+				153134C02B77BC4300E1B988 /* BoardState.swift */,
+				15EFFABC2B77AD3600DE6D8D /* GameView.swift */,
 				15EFFA912B779B3700DE6D8D /* Assets.xcassets */,
 				15EFFA932B779B3700DE6D8D /* Checkers.entitlements */,
 				15EFFA942B779B3700DE6D8D /* Preview Content */,
@@ -115,18 +150,10 @@
 		15EFFA9E2B779B3800DE6D8D /* CheckersTests */ = {
 			isa = PBXGroup;
 			children = (
-				15EFFA9F2B779B3800DE6D8D /* CheckersTests.swift */,
+				15DF3A2E2B79631E00477AF5 /* CoordTests.swift */,
+				15DF3A302B79640F00477AF5 /* PieceStorageTests.swift */,
 			);
 			path = CheckersTests;
-			sourceTree = "<group>";
-		};
-		15EFFAA82B779B3800DE6D8D /* CheckersUITests */ = {
-			isa = PBXGroup;
-			children = (
-				15EFFAA92B779B3800DE6D8D /* CheckersUITests.swift */,
-				15EFFAAB2B779B3800DE6D8D /* CheckersUITestsLaunchTests.swift */,
-			);
-			path = CheckersUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +287,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				15EFFA902B779B3600DE6D8D /* ContentView.swift in Sources */,
+				153134C52B77BF1300E1B988 /* Action.swift in Sources */,
+				15EFFABF2B77BBC100DE6D8D /* Coord.swift in Sources */,
+				153134BF2B77BC3700E1B988 /* Config.swift in Sources */,
+				153134C92B77F4BB00E1B988 /* PieceStorage.swift in Sources */,
+				153134C32B77BCA600E1B988 /* GridView.swift in Sources */,
+				153134BB2B77BC1400E1B988 /* PieceId.swift in Sources */,
+				15EFFAB92B779CA300DE6D8D /* UIColor+Extensions.swift in Sources */,
+				153134BD2B77BC2E00E1B988 /* Piece.swift in Sources */,
+				153134C72B77EEDE00E1B988 /* CurrentTurnView.swift in Sources */,
+				15EFFABB2B77A59400DE6D8D /* BoardView.swift in Sources */,
 				15EFFA8E2B779B3600DE6D8D /* CheckersApp.swift in Sources */,
+				153134C12B77BC4300E1B988 /* BoardState.swift in Sources */,
+				15EFFABD2B77AD3600DE6D8D /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +307,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15EFFAA02B779B3800DE6D8D /* CheckersTests.swift in Sources */,
+				15DF3A312B79640F00477AF5 /* PieceStorageTests.swift in Sources */,
+				15DF3A2F2B79631E00477AF5 /* CoordTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +316,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15EFFAAC2B779B3800DE6D8D /* CheckersUITestsLaunchTests.swift in Sources */,
-				15EFFAAA2B779B3800DE6D8D /* CheckersUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

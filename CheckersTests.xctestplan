@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "E67B78A5-9BCA-4B8B-9240-73061B6DB52B",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Checkers.xcodeproj",
+      "identifier" : "15EFFA892B779B3600DE6D8D",
+      "name" : "Checkers"
+    },
+    "testExecutionOrdering" : "random",
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Checkers.xcodeproj",
+        "identifier" : "15EFFA9A2B779B3800DE6D8D",
+        "name" : "CheckersTests"
+      }
+    }
+  ],
+  "version" : 1
+}

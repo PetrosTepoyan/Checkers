@@ -2,8 +2,6 @@
 //  CheckersApp.swift
 //  Checkers
 //
-//  Created by Petros Tepoyan on 10.02.2024.
-//
 
 import SwiftUI
 
@@ -11,7 +9,18 @@ import SwiftUI
 struct CheckersApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GameView()
         }
     }
 }
+
+#Preview {
+    GameView()
+}
+
+enum CellState {
+    case white
+    case black
+    case empty
+}
+

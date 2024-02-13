@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9CFAD2CE-9ADE-482A-83F9-EF6A226A9DCF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC6ABC58-2A6C-4AF2-A1D5-9669F66D0923"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CheckersTests/PieceStorageTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "testMovePiece()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FC6ABC58-2A6C-4AF2-A1D5-9669F66D0923 - 99e881edd9d0a872"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CheckersTests.PieceStorageTests.testMovePiece() throws -&gt; ()"
+                  moduleName = "CheckersTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/petrostepoyan/Checkers/CheckersTests/PieceStorageTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1112">
+               </Location>
+               <Location
+                  uuid = "FC6ABC58-2A6C-4AF2-A1D5-9669F66D0923 - 99e881edd9d0a872"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CheckersTests.PieceStorageTests.testMovePiece() throws -&gt; ()"
+                  moduleName = "CheckersTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/petrostepoyan/Checkers/CheckersTests/PieceStorageTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1148">
+               </Location>
+               <Location
+                  uuid = "FC6ABC58-2A6C-4AF2-A1D5-9669F66D0923 - 99e881edd9d0a872"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CheckersTests.PieceStorageTests.testMovePiece() throws -&gt; ()"
+                  moduleName = "CheckersTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/petrostepoyan/Checkers/CheckersTests/PieceStorageTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1420">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "54F1A2B6-FC0D-4740-8701-2A89858EBC47"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Checkers/PieceStorage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "movePiece(fromCoord:toCoord:regularMoveChecker:eatingMoveChecker:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "54F1A2B6-FC0D-4740-8701-2A89858EBC47 - 42a70e12c0407674"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Checkers.PieceStorage.movePiece(fromCoord: Checkers.Coord, toCoord: Checkers.Coord, regularMoveChecker: Checkers.RegularMoveChecker, eatingMoveChecker: Checkers.EatingMoveChecker) -&gt; ()"
+                  moduleName = "Checkers"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/petrostepoyan/Checkers/Checkers/PieceStorage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "1988">
+               </Location>
+               <Location
+                  uuid = "54F1A2B6-FC0D-4740-8701-2A89858EBC47 - 37e489d3c115b2e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Checkers.PieceStorage.movePiece(fromCoord: Checkers.Coord, toCoord: Checkers.Coord, regularMoveChecker: Checkers.RegularMoveChecker, eatingMoveChecker: Checkers.EatingMoveChecker) -&gt; Checkers.PieceStorage"
+                  moduleName = "Checkers"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/petrostepoyan/Checkers/Checkers/PieceStorage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "1480">
+               </Location>
+               <Location
+                  uuid = "54F1A2B6-FC0D-4740-8701-2A89858EBC47 - 37e489d3c115b2e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Checkers.PieceStorage.movePiece(fromCoord: Checkers.Coord, toCoord: Checkers.Coord, regularMoveChecker: Checkers.RegularMoveChecker, eatingMoveChecker: Checkers.EatingMoveChecker) -&gt; Checkers.PieceStorage"
+                  moduleName = "Checkers"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/petrostepoyan/Checkers/Checkers/PieceStorage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "1576">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
